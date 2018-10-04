@@ -18,6 +18,8 @@
 		7F31B1AC216603C40023532C /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 7F31B1AB216603C40023532C /* Cartfile */; };
 		7F31B1C1216606040023532C /* Siesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F31B1BF216606040023532C /* Siesta.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7F31B1C2216606040023532C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F31B1C0216606040023532C /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7F31B1C4216608B90023532C /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31B1C3216608B90023532C /* NetworkServices.swift */; };
+		7F31B1C6216608C90023532C /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31B1C5216608C90023532C /* RepositoryService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		7F31B1AB216603C40023532C /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		7F31B1BF216606040023532C /* Siesta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Siesta.framework; path = Carthage/Build/iOS/Siesta.framework; sourceTree = SOURCE_ROOT; };
 		7F31B1C0216606040023532C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		7F31B1C3216608B90023532C /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		7F31B1C5216608C90023532C /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 		7F31B1AD216603DE0023532C /* services */ = {
 			isa = PBXGroup;
 			children = (
+				7F31B1C3216608B90023532C /* NetworkServices.swift */,
+				7F31B1C5216608C90023532C /* RepositoryService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -320,7 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F31B183216603980023532C /* app3.xcdatamodeld in Sources */,
+				7F31B1C6216608C90023532C /* RepositoryService.swift in Sources */,
 				7F31B17D216603970023532C /* ViewController.swift in Sources */,
+				7F31B1C4216608B90023532C /* NetworkServices.swift in Sources */,
 				7F31B17B216603970023532C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
